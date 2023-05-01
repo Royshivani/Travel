@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Details Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fd93c2192d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navBar" class="navbar-white">
+        <a href="index.html">
+            <img src="logo.png" class="logo">
+        </a>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Popular Places</a></li>
+            <li><a href="#">Travel Outside</a></li>
+            <li><a href="listing.html">Online Packages</a></li>
+        </ul>
+        <a href="#" class="register-btn">Register Now</a>
+        <i class="fas fa-bars" onclick="togglebtn()"></i>
+    </nav>
+    <div class="house-details">
+        <div class="house-title">
+            <h1>Wenge House</h1>
+            <div class="row">
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span>250 Reviews</span>
+                </div>
+                <div>
+                    <p>Location: Bangalore,city in Karnataka,India.</p>
+                </div>
+            </div>
+            <div>
+                <div class="gallery">
+                    <div class="gallery-img-1"><img src="house-1.png"></div>
+                    <div><img src="house-2.png"></div>
+                    <div><img src="house-3.png"></div>
+                    <div><img src="house-4.png"></div>
+                    <div><img src="house-5.png"></div>
+                </div>
+                <div class="small-details">
+                    <h2>Entire rental unit hosted by the owner</h2>
+                    <p>2 Guest &nbsp; &nbsp; 2 Beds &nbsp; &nbsp; 1 Bathroom</p>
+                    <h4> 1000 /day</h4>
+                </div>
+                <hr class="line">
+                <form class="check-form">
+                    <div>
+                        <label>Check-in</label>
+                        <input type="text" placeholder="Add Date">
+                    </div>
+                    <div>
+                        <label>Check-out</label>
+                        <input type="text" placeholder="Add Date">
+                    </div>
+                    <div class="guest-field">
+                        <label>Guest</label>
+                        <input type="text" placeholder="2 guest">
+                    </div>
+                    <button type="submit">Check Availability</button>
+                </form>
+                <ul class="details-list">
+                    <li><i class="fa-solid fa-house-chimney"></i>Entire Home
+                        <span>You will have the entire flat for you.</span>
+                    </li>
+                    <li><i class="fa-solid fa-paint-roller"></i>Enhanced Clean
+                        <span>This host has committed to Banjara's cleaning process.</span>
+                    </li>
+                    <li><i class="fa-solid fa-location-dot"></i>Great Location
+                        <span>90% of recent guests gave the location a 5 star rating.</span>
+                    </li>
+                    <li><i class="fa-solid fa-heart"></i>Great Check-in Experience
+                        <span>100% of recent guests gave the check-in process a 5 star rating.</span>
+                    </li>
+                </ul>
+
+                <hr class="line">
+                <p class="home-desc">Guests will be allocated on the ground floor according to availability. You get a 
+                    comfortable Two bedroom apartment has a true city feeling. The price quoted is for 
+                    two guest, at the guest slot please mark the number of guests to get the exact price 
+                    for groups. The Guests will be allocated ground floor according to availability. 
+                    You get the comfortable two bedroom apartment that has a true city</p>
+                <hr class="line">
+
+                <div class="map">
+                    <h3>Location in Map</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d995402.9663953979!2d76.54851657741057!
+                    3d12.95310408139377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1680896700603!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <b>Bangalore,city in Karnataka,India.</b>
+                    <p>It's like a home away from home.</p>
+                </div>
+
+                <hr class="line">
+
+                <div class="host">
+                    <img src="Me.jpg">
+                    <div>
+                        <h2>Hosted By Shivani Roy</h2>
+                        <p><span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>&nbsp; &nbsp; 250 Reviews &nbsp; &nbsp; Response rate 100% &nbsp; &nbsp; 
+                        Response time: 60 min</p>
+                    </div>
+                </div>
+                <a href="#" class="contact-host">Contact Host</a>
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+<!-- -----------footer-------- -->
+  <div class="container">
+    <div class="footer">
+        <a href="https://www.facebook.com/profile.php?id=100010440315365"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/Shivaniroy_?t=N3YtUfIz9g19EP_JgrrKrw&s=08"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://instagram.com/shivaniroy__?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <script>
+    var navBar = document.getElementById("navBar");
+        
+     function togglebtn(){
+        navBar.classList.toggle("hidemenu");
+         }
+        
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fd93c2192d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<div class="header">
+    <nav id="navBar">
+
+    <img src="logo.png" class="logo">
+    <ul class="nav-links">
+        <li><a href="#" class="active">Popular Places</a></li>
+        <li><a href="#">Travel Outside</a></li>
+        <li><a href="#">Online Packages</a></li>
+    </ul>
+    <a href="#" class="register-btn">Register Now</a>
+    <i class="fas fa-bars" onclick="togglebtn()"></i>
+</nav>
+<div class="container">
+    <h1>Find Your Next Stay</h1>
+   <div class="search-bar">
+    <form>
+        <div class="location-input">
+            <label>Location</label>
+            <input type="text" placeholder="Where are you going">
+        </div>
+        <div>
+            <label>Check in</label>
+            <input type="text" placeholder="Add Date">
+        </div>
+        <div>
+            <label>Check out</label>
+            <input type="text" placeholder="Add Date">
+        </div>
+        <div>
+            <label>Guest</label>
+            <input type="text" placeholder="Add Guest">
+        </div>
+        <button type="submit"><img src="search.png" alt=""></button>
+    </form>
+   </div>
+</div>
+</div>
+
+<!-- -------------another interface--------- -->
+
+    <div class="container">
+        <h2 class="sub-title">Exclusives</h2>
+        <div class="exclusives">
+            <div>
+                <img src="Delhi.jpg">
+                <span>
+                    <h3>New delhi</h3>
+                    <p>Starts @ Rs.2000</p>
+                </span>
+            </div>
+            <div>
+                <img src="Mumbai.jpg">
+                <span>
+                    <h3>Maharashtra</h3>
+                    <p>Starts @ Rs.2000</p>
+                </span>
+            </div>
+            <div>
+                <img src="Bihar.jpg">
+                <span>
+                    <h3>Bihar</h3>
+                    <p>Starts @ Rs.2000</p>
+                </span>
+            </div>
+            <div>
+                <img src="varanasi.jpg">
+                <span>
+                    <h3>Uttar Pradesh</h3>
+                    <p>Starts @ Rs.2000</p>
+                </span>
+            </div>
+           
+            
+            <div>
+                <img src="Jaipur.jpg">
+                <span>
+                    <h3>Rajasthan</h3>
+                    <p>Starts @ Rs.2000</p>
+                </span>
+            </div>
+            <div>
+                <img src="Goa.jpg">
+                <span>
+                    <h3>Goa</h3>
+                    <p>Starts @ Rs.2000</p>
+                </span>
+            </div>
+            <div>
+                <img src="bengaluru.jpg">
+                <span>
+                    <h3>Karnataka</h3>
+                    <p>Starts @ Rs.2000</p>
+                </span>
+            </div>
+            <div>
+                <img src="Kolkata.jpg">
+                <span>
+                    <h3>West Bengal</h3>
+                    <p>Starts @ Rs.2000</p>
+                </span>
+            </div>
+           
+        </div>
+
+        <!-- ---------Trending Places---- -->
+        <h2 class="sub-title">Trending Places</h2>
+        <div class="trending">
+            <div>
+                <img src="bombay.jpg">
+                <h3>Mumbai</h3>
+            </div>
+            <div>
+                <img src="Patna.jpg">
+                <h3>Patna</h3>
+            </div>
+            <div>
+                <img src="jaisalmer.jpg">
+                <h3>Jaisalmer</h3>
+            </div>
+            <div>
+                <img src="Cherry.jpg">
+                <h3>Bengaluru</h3>
+            </div>
+        </div>
+
+        <div class="cta">
+            <h3>Sharing Is Earning Now </h3>
+            <p>Great opportunity to make money by Sharing your extra space.</p>
+            <a href="#" class="cta-btn">Know More</a>
+        </div>
+
+
+<!-- ----------------Stories------- -->
+        <h2 class="sub-title">Travellers Stories</h2>
+        <div class="stories">
+            <div>
+                <img src="story-1.jpg">
+                <p>Popular Indian States with a budget of just Rs.10,000</p>
+            </div>
+            <div>
+                <img src="story-2.jpg">
+                <p>Popular Indian States with a budget of just Rs.10,000</p>
+            </div>
+            <div>
+                <img src="story-3.png">
+                <p>Popular Indian States with a budget of just Rs.10,000</p>
+            </div>
+        </div>
+        <a href="#" class="start-btn">Start Making Money</a>
+        <div class="about-msg">
+            <h2>About Banjara</h2>
+            <p> The world is your home, and every road is a new adventure 
+                and the Banjara way of life reminds us that true happiness 
+                comes from experiences, not things. So,
+                live like a Banjara and enjoy the ride. 
+                Life is a journey, not a 
+                destination so live in the moment and make every day count 
+                and know that the greatest treasures in life are the people we meet, 
+                the places we see, and the memories we create.</p>
+        </div>
+
+
+        <!-- -----------footer-------- -->
+        <div class="footer">
+            <a href="https://www.facebook.com/profile.php?id=100010440315365"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/Shivaniroy_?t=N3YtUfIz9g19EP_JgrrKrw&s=08"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://instagram.com/shivaniroy__?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+        </div>
+
+
+
+    </div>
+<script>
+    var navBar = document.getElementById("navBar");
+
+    function togglebtn(){
+        navBar.classList.toggle("hidemenu");
+    }
+
+
+</script>
+
+</body>
+</html>
+
